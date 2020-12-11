@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6, a, p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    color: #000;
+}
+
+.section{
+    display: flex;
+    flex-direction: row;
+}
+
+.navbar{
+    width: 100px;
+    height: 100vh;
+}
+
+.main-section{
+    width: calc(100% - 100px);
+    height: 100vh;
+}
+
+.nav{
+    position: absolute;
+    left: -100px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+}
